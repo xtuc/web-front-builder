@@ -13,4 +13,3 @@ RUN apt-get install -y \
 RUN npm install -g bower grunt-cli gulp less typescript
 
 WORKDIR /root
-ADD . .
